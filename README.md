@@ -10,7 +10,7 @@ This is the standalone React and Vite frontend for the TaskFlow MERN application
 4. Set the API address in `.env`:
 
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=https://task-flow-frontend-eosin.vercel.app/
 ```
 
 5. Install and start:
@@ -20,7 +20,7 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:5173`.
+Open `https://task-flow-frontend-eosin.vercel.app/`.
 
 ## Vercel deployment
 
@@ -28,7 +28,7 @@ Import this folder or its GitHub repository into Vercel. Add:
 
 ```text
 Key: VITE_API_URL
-Value: https://YOUR-RENDER-SERVICE.onrender.com/api
+Value: https://taskflow-backend-sukq.onrender.com/api
 Environments: Production, Preview, Development
 ```
 
